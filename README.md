@@ -7,7 +7,7 @@
 
 ## 📂 Setup
 ```bash
-git clone <repo-url>
+git clone https://github.com/abhishekbatra1062k/JT_Task_Manager.git
 cd task_manager
 python -m venv venv
 source venv/bin/activate
