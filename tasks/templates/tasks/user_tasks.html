@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ user.username }}'s Tasks</title>
+</head>
+<body>
+    <h2>Tasks assigned to {{ user.username }}</h2>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task.name }} - {{ task.status }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'task_list' %}">Back to Task List</a>
+</body>
+</html>
